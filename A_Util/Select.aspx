@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="js_Select, afm_new" enableviewstate="false" enableviewstatemac="false" enableEventValidation="false" %>

@@ -1,0 +1,132 @@
+@media screen and (max-width:2560px){
+.banner_txt{top:40%;}
+
+}
+
+@media screen and (max-width:1920px){
+.banner_txt{top:30%;}
+
+}
+
+@media screen and (max-width:1600px){
+.banner_txt{top:24%;}
+.banner_button{line-height: 40px;font-size:20px;}
+.roadmap{min-height:1100px;}
+.team_img .info p{padding:0}
+.ecosystem_txt{padding:33px 0 0 105px;min-height:142px;}
+}
+
+
+@media screen and (max-width:1440px){
+.team_img .info p{font-size:12px;}
+    .benefits_left img{ margin: 30px 0;}  
+    .roadmap{min-height: 1100px;}
+	.faq_main,.foot_main{width: 90%;}
+	.roadmap{min-height:1000px;}
+	.store{padding: 250px 0 200px; }
+}
+
+
+@media screen and (max-width:1366px){
+.slide_banner .swiper-slide .data ul li:nth-child(1),.slide_banner .swiper-slide .data ul li:nth-child(2),.slide_banner .swiper-slide .data ul li:nth-child(3){width: 33.33%}
+.menu_title p{font-size:16px;line-height:26px;}
+.data{bottom: 20px;}
+.button{margin: 200px auto 0}
+
+.foot_main{padding: 100px 0;}
+.team_img .info p{padding:0;font-size: 12px}
+
+.banner_txt{top:180px;}
+.data_container{padding:0 15%}
+.partners ul{width: 76%;}
+.partners li{width: 140px;margin: 8px 15px;}
+.menu_title{padding:45px 0 35px}
+.ecosystem_txt p{margin-top:5px;}
+.ecosystem_txt{padding: 23px 0 0 105px;}
+.store{padding: 250px 0 100px;}
+}
+
+@media screen and (max-width:1280px){
+.ecosystem_txt{min-height: 170px;padding: 5px 0 0 105px;}
+.ecosystem_txt h1{padding:15px 0 ;}
+}
+
+@media screen and (max-width:1024px){
+.partners ul{width: 90%;}
+.roadmap{background: url(../images/roadmap.png) no-repeat center;}
+.button{margin: 100px auto 0;}
+.trade_left{margin-right: 0;width: 100%;}
+.trade_right{width: 100%;margin: 20px auto;text-align: center;}
+
+
+.benefits_right .benefits_txt{width:100%;padding:0}
+.trade li{margin: 0 50px 60px;}
+.top{ display:none}
+.ph_header{ display:block;}
+.slide_banner .swiper-slide{background-size: cover!important;}
+
+.absolute_img,.foot_email{display: none;}
+.bottom_li .ecosystem_img{padding-top: 0;}
+.ecosystem_txt{padding: 20px 0;text-align: center;}
+.bottom_li .ecosystem_img h1{color: #1b0401;top: 30px;left:0;width:100%;text-align:center}
+.ecosystem_txt p,.bottom_li .ecosystem_txt p{margin-top: 0;padding: 0 10px 20px;}
+.benefits_left{width: 100%;text-align: center;}
+.benefits_left img{margin:20px 0;}
+.benefits_right{width: 92%;padding-bottom: 30px;}
+
+.roadmap{background-size: 100%;min-height: 950px;}
+.menu_title{padding: 40px 0;}
+.team .team_ul li,.team .advisors_ul li{width: 16%;}
+
+.team{width: 95%;}
+.ecosystem_txt h1{padding:0 0 15px;}
+.bottom_li .ecosystem_txt h1{padding:10px 0}
+}
+
+
+@media screen and (max-width:780px){
+.slide_banner .swiper-slide{background-size: cover!important;}
+.team_img .info p{font-size: 12px;}
+.faq_nav li{    width: 31.33%;
+    margin: 0 1% 10px;}
+.faq_nav li a{width: 100%;font-size: 14px;line-height: 35px;}
+.trade{width: 88%;}
+}
+
+@media screen and (max-width:640px){
+.banner_txt{top:120px;}
+.slide_banner .swiper-slide h1{font-size: 50px;}
+.slide_banner .swiper-slide .data ul li h1,.banner_txt h1 p{font-size: 18px;}
+.slide_banner .swiper-slide .data ul li{font-size: 12px;}
+.menu_title{font-size: 24px;}
+.trade_left p{font-size: 16px;}
+.trade_left a,.benefits_right h1,.roadmap p{font-size: 20px;}
+.trade_email{width: 100%;}
+.trade_email a.submit{display: block;margin: 20px auto;}
+.trade_email input[type=text]{width: 100%;}
+.ecosystem{margin: 0 15px;}
+.ecosystem li{width: 100%;margin-right: 0}
+.team .team_ul li, .team .advisors_ul li{width: 41%;}
+.ecosystem h2{font-size: 18px;margin: 5px 0 35px;}
+.foot_main{padding: 30px 0;text-align: center;}
+.foot_main ul,.data{display: none;}
+.foot_logo{float: inherit; margin: 0 auto;}
+.ecosystem .button{width: 100%}
+.paper{padding: 0;}
+.roadmap { background: url(../images/ph_roadmap.png) no-repeat center;background-size: 100%; min-height: 590px;}
+.partners li{width: 44%;margin: 8px 2.5%;}
+.team_content{padding-bottom: 45px;}
+.benefits_right .benefits_txt,.benefits_right{height: auto;width: 100%;overflow: hidden;}
+.benefits_right .swiper-slide,.benefits_right{overflow: hidden;margin: 0;}
+.roadmap .button{bottom: 10px;}
+.operate li h4{font-size: 18px;padding: 5px 25px;text-indent: 0px;}
+.operate li .list-item{padding: 10px}
+.store h1{font-size: 32px;}
+.store h2{font-size: 24px;}
+.store_form{width: 80%;margin: 0 auto;}
+.store_form input,.store_form .submit{width: 100%;line-height: 45px;}
+.store_form .submit{margin: 20px auto;}
+.store{padding: 200px 0 100px; }
+
+.banner_txt h1{padding:0 20px;}
+}

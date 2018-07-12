@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="web_master_Admin_DaoChu, afm_new" enableviewstate="false" enableviewstatemac="false" enableEventValidation="false" %>

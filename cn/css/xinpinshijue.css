@@ -1,0 +1,249 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+* {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;}  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+
+.clearfix:before,.clearfix:after {  /*清楚浮动*/
+    content:"";
+    display:table;
+    /*clear:both;*/
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {text-decoration:none; }
+/*a:hover{color:#C81623;}*/
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+/*.col-red{color: #C81623!important;}*/
+
+video::-webkit-media-controls{
+    display:none !important;
+}
+video::-webkit-media-controls-enclosure{
+    display:none !important;
+}
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1200px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+html,body {
+	font-family: "黑体", 华文细黑, 微软雅黑, "Microsoft Yahei", 华文黑体, "ST Heiti", MS黑体, "MS Hei", abchanel-couture, Arial;
+	background: #fff;
+}
+
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 0;
+	padding-top: 200px;
+	margin-bottom: 25px;
+}
+
+
+ .container {
+	width: 100%;
+    // margin-bottom: 100px;
+    
+    // padding-right: 0;
+    // padding-left: 0;
+    // margin-right: 0;
+    // margin-left: 0;    
+}
+ .item {
+	width: 100%;
+}
+ .item .introduct {
+	height: 96px;
+	width: 100%;
+	font-size: 16px;
+	margin-top: 20px;
+	color: #333333;
+}
+.playContent {
+	width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;	
+}
+.container video {
+    object-fit: cover;
+    cursor:pointer;
+	width: 100%;
+	height: 100%; 
+}
+
+.dd,.willesPlay{height:100%}
+
+
+.container .willesPlay .playControll {
+	background: rgba(0, 0, 0, 0.5);
+	height: 55px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.container:hover .willesPlay .playControll {
+	opacity: 1;
+	z-index: 21474836498;
+}
+
+.willesPlay .playControll .playPause {
+	width: 11px;
+	height: 15px;
+	background: url("../images/stop2.png") 0 0 no-repeat;
+	background-size: 11px 15px;
+	// float: left;
+	margin: 20px 20px 0 20px;
+	cursor: pointer;
+}
+
+.playContent .glyphicon.glyphicon-play {  
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -60px;
+}
+
+ .playContent .glyphicon.glyphicon-play img {
+	width: 120px;
+	height: 120px;
+	cursor: pointer;
+}
+.glyphicon-play:before {
+	content: '';
+}
+
+ .willesPlay .timebar {
+	width: 80%;
+}
+.timebar .progress {
+	margin-bottom: 0px;
+	width: 65%;
+	height: 5px;
+	margin-top: 25px;
+	background: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+}
+
+.willesPlay .otherControl {
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.willesPlay .otherControl .volume {
+	background: url("../images/shenying.png") 0 0 no-repeat;
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+
+ .glyphicon-volume-down:before {
+	content: '';
+}
+ .glyphicon-volume-up:before {
+	content: '';
+	width: 0;
+	height: 0;
+	font-size: 0;
+	display: none;
+}
+ .glyphicon-fullscreen:before {
+	content: '';
+}
+.glyphicon-volume-off:before {
+	content: '';
+}
+ .willesPlay .otherControl .progress {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg);
+	position: relative;
+	bottom: 90px;
+	width: 14px;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+	display: none;
+	// opacity: 0;
+}
+
+ .willesPlay .otherControl .fullScreen {
+	background: url("../images/quanpin.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.timebar .currentTime {
+	margin-top: 17px;
+	color: #fff;
+	font-size: 14px;
+	margin-right: 25px;
+}
+.timebar .duration {
+	margin-top: 17px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 25px;	
+} 
+.timebar .progress-bar-danger {
+	background-color: #fff;
+
+}
+
+ .willesPlay .otherControl .progress-bar-danger {
+	background-color: #fff;
+	position: absolute;
+	right: 0;width:100%;
+	border-radius: 3px;
+}
+
+
+.progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#337ab7;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);-webkit-transition:width .6s ease;-o-transition:width .6s ease;transition:width .6s ease;border-radius: 10px;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:40px 40px;background-size:40px 40px}
+
+
+
+
+
+
